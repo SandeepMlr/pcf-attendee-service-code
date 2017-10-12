@@ -46,5 +46,5 @@ jobs:
   - task: smoke_test
     file: attendee-service-source/ci/tasks/smoke-test.yml
     params:
-      ATTENDEE_SERVICE_URL: https://attendee-service-cirrate-nonvalidity  #<---- REPLACE ME
+      ATTENDEE_SERVICE_URL: http://attendee-service-cirrate-nonvalidity.apps.cumuluslabs.io  #<---- REPLACE ME
 
